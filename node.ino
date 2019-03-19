@@ -2,11 +2,11 @@
 #include <ESP8266WiFi.h>
 
 // Wifi configuration
-const char* ssid = "#roy";
-const char* password = "Astapor22";
+const char* ssid = "wifissid";
+const char* password = "wifipassword";
 
 // mqtt configuration
-const char* server = "192.168.1.103";
+const char* server = "ipaddr to which node mcu is connected";
 const char* topic = "/pot/";
 const char* clientName = "";
 
