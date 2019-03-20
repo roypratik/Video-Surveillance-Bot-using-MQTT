@@ -12,4 +12,4 @@ node.ino to upload in node mcu for publish the values of potentiometer using MQT
 
 rpi_camera.py to upload the real time video feed to the webpage.
 
-mqtt.py to subscribe to the values sent by node mcu using MQTT and mapping the angle of servo motor with potentiometer values sent. 
+mqtt_pot.py to subscribe to the values sent by node mcu using MQTT and mapping the angle of servo motor with potentiometer values sent. 
